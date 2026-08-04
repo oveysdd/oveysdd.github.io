@@ -339,7 +339,7 @@
         this.page.identifier = window.location.pathname;
       };
       const d = document, s = d.createElement('script');
-      s.src = 'https://oveys-lab.disqus.com/embed.js';
+      s.src = 'https://oveyslab.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     }
